@@ -1,0 +1,383 @@
+<!-- - Create a layout according to the design shown below.
+
+![Table Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/table/ex-1.png)
+
+- Attach the video provided in the background of hero section.
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.
+
+- Do not forget to checkout the preview video, before working on the assignment. -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Assignment 1</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c91808f2e8.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="container flex">
+                <h2>Training <span>studio</span></h2>
+                <nav>
+                    <ul class="flex submenu-list">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Classes</a>
+                        </li>
+                        <li>
+                            <a href="#">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <button class="btn">Sign up</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                
+                     <figure>
+                        <video autoplay muted loop>
+                        <source src="assets/gym-video.mp4" type="video/mp4">
+                        </video>
+                    </figure> 
+                    
+                    <div class="hero-block center coulmn">
+                        <p>Work Harder Get stronger</p>
+                        <h1>Easy with Our <span>GYM</span></h1>
+                        <button class="btn">Become a member</button>
+                    </div>
+                
+            </section>
+            <section class="programm">
+                <div class="container">
+                    <div class="programm-block1">
+                        <h4>Choose <span>programm</span></h4>
+                    <img src="assets/line-dec.png" alt="img">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam odit nam libero obcaecati maxime dignissimos beatae accusamus deleniti nostrum neque rem, quae distinctio, u</p>
+                    </div>
+                    <div class="flex plan">
+                        <div class="left-col flex1">
+                            <div class="dumbell">
+                                <img src="assets/features-first-icon.png" alt="dumbell">
+                            </div>
+                            <div>
+                                <h5>Basic fitness</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio maxime error harum optio labore inventore rerum repell</p>
+                            <a class="discover" href="#">Discover more</a>
+                            </div>
+                        </div>
+                        <div class="left-col flex1">
+                            <div class="dumbell">
+                                <img src="assets/features-first-icon.png" alt="dumbell">
+                            </div>
+                            <div>
+                                <h5>Advance muscle course</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio maxime error harum optio labore inventore rerum repell</p>
+                            <a class="discover" href="#">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="flex plan">
+                            <div class="left-col flex1">
+                                <div class="dumbell">
+                                    <img src="assets/features-first-icon.png" alt="dumbell">
+                                </div>
+                                <div>
+                                    <h5>New gym training</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio maxime error harum optio labore inventore rerum repell</p>
+                                <a class="discover" href="#">Discover more</a>
+                                </div>
+                            </div>
+                            <div class="left-col flex1">
+                                <div class="dumbell">
+                                    <img src="assets/features-first-icon.png" alt="dumbell">
+                                </div>
+                                <div>
+                                    <h5>Yoga training</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio maxime error harum optio labore inventore rerum repell</p>
+                                <a class="discover" href="#">Discover more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex plan">
+                            <div class="left-col flex1">
+                                <div class="dumbell">
+                                    <img src="assets/features-first-icon.png" alt="dumbell">
+                                </div>
+                                <div>
+                                    <h5>Basic muscle course</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio maxime error harum optio labore inventore rerum repell</p>
+                                <a class="discover" href="#">Discover more</a>
+                                </div>
+                            </div>
+                            <div class="left-col flex1">
+                                <div class="dumbell">
+                                    <img src="assets/features-first-icon.png" alt="dumbell">
+                                </div>
+                                <div>
+                                    <h5>Body building course</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat odio maxime error harum optio labore inventore rerum repell</p>
+                                <a class="discover" href="#">Discover more</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+
+            </section>
+            <section class="plan-article">
+                <div class="center coulmn plan-article-block">
+                    <h2>dont <span>think</span>,Begin <span>today</span> !</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque odio saepe minus debitis non cumque repudiandae quam hic aliquid nulla dolorem aut laboriosam, eos, eligendi asperiores maiores modi voluptatum nihil!</p>
+                    <button class="btn">Become a member</button>
+                </div>
+            </section>
+            <article class="our-class">
+                <div class="programm-block1">
+                    <h4>Our <span>classes</span></h4>
+                <img src="assets/line-dec.png" alt="img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam odit nam libero obcaecati maxime dignissimos beatae accusamus deleniti nostrum neque rem, quae distinctio, u</p>
+                </div>
+                <div class="container flex1">
+                    <div class="class-left-col margin-top-bottom">
+                        <div class="flex2 left-col-block active">
+                            <img src="assets/tabs-first-icon.png" alt="img">
+                            <p>First training class</p>
+                        </div>
+                        <div class="flex2 left-col-block">
+                            <img src="assets/tabs-first-icon.png" alt="img">
+                            <p>Second training class</p>
+                        </div>
+                        <div class="flex2 left-col-block">
+                            <img src="assets/tabs-first-icon.png" alt="img">
+                            <p>Third training class</p>
+                        </div>
+                        <div class="flex2 left-col-block">
+                            <img src="assets/tabs-first-icon.png" alt="img">
+                            <p>Fourth training class</p>
+                        </div>
+                        <button class="btn">View all schedules</button>
+                    </div>
+                    <div class="class-right-col">
+                        <img src="assets/training-image-01.jpg" alt="img">
+                        <h6>First Training class</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum reprehenderit fuga a dolores obcaecati, officia velit optio magni, voluptas assumenda praesentium voluptate maiores corrupti nam suscipit. Atque odio fugiat eius!</p>
+                        <button class="btn">View Schedule </button>
+                    </div>
+                </div>
+
+            </article>
+            <section class="schedule">
+                <div class="programm-block1">
+                    <h4>Classes <span>Schedule</span></h4>
+                <img src="assets/line-dec.png" alt="img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam odit nam libero obcaecati maxime dignissimos beatae accusamus deleniti nostrum neque rem, quae distinctio, u</p>
+                </div>
+                
+                <table>
+                    
+                    <caption>
+                        <span>Monday</span> / Tuesday / Wednesday / Thursday / Friday
+                    </caption>
+                        <tr>
+                            <th>Fitness class</th>
+                            <th>10:00-11:30 AM</th>
+                            <th></th>
+                            <th>William G stewart</th>
+                        </tr>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Muscle Training</td>
+                            <td></td>
+                            <td></td>
+                            <td>Paul D heymon</td>
+                        </tr>
+                        <tr>
+                            <td>Body building</td>
+                            <td></td>
+                            <td>2:00-3:00pm</td>
+                            <td>Royal Bond</td>
+                        </tr>
+                        <tr>
+                            <td>Yoga Training classes</td>
+                            <td></td>
+                            <td></td>
+                            <td>John Cena</td>
+                        </tr>
+                        <tr>
+                            <td>Advance Training</td>
+                            <td></td>
+                            <td></td>
+                            <td>Paul Bear</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </section>
+            <section class="trainer">
+                <div class="programm-block1">
+                    <h4>Expert <span>Trainer</span></h4>
+                <img src="assets/line-dec.png" alt="img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam odit nam libero obcaecati maxime dignissimos beatae accusamus deleniti nostrum neque rem, quae distinctio, u</p>
+                </div>
+                <div class="container">
+                    <div class="flex">
+                        <div class="trainer-detail">
+                            <img src="assets/first-trainer.jpg" alt="1st">
+                            <p class="Quality"><span>Strength Trainer</span></p>
+                            <h3>Bret D. Bowers </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore esse placeat quas asperiores, et quae totam. Numquam perferendis eius quidem, 
+                            </p>
+                            <nav>
+                                <ul class="flex-end">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-whatsapp"></i>
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="trainer-detail">
+                            <img src="assets/second-trainer.jpg" alt="1st">
+                            <p class="Quality"><span>Muscle Trainer</span></p>
+                            <h3>Hector T. Daigl </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore esse placeat quas asperiores, et quae totam. Numquam perferendis eius quidem, 
+                            </p>
+                            <nav>
+                                <ul class="flex-end">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-whatsapp"></i>
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="trainer-detail">
+                            <img src="assets/third-trainer.jpg" alt="1st">
+                            <p class="Quality"><span>Power Trainer</span></p>
+                            <h3>Paul D. Heyman </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore esse placeat quas asperiores, et quae totam. Numquam perferendis eius quidem, 
+                            </p>
+                            <nav>
+                                <ul class="flex-end">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-whatsapp"></i>
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <section class="map">
+                <div class="flex-end">
+                    <figure class="map-left">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.831345859067!2d72.82357531443203!3d18.93885786119152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e0f0a26a81%3A0x87d6e47e04df3916!2sWankhede%20Stadium!5e0!3m2!1sen!2sin!4v1603226508203!5m2!1sen!2sin" width="100%" height="400px"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </figure>
+                    <div class="contact-us map-left">
+                        <form action="index.html">
+                            <fieldset >
+                                <div class="flex1">
+                                    <input class="form-control name" type="text" placeholder="Your name">
+                                <input class="form-control" type="email" placeholder="Your email">
+                                </div>
+                            </fieldset>
+                            <input class="form-control1" type="text" placeholder="subject">
+                            <textarea class="form-control1" name=""  rows="6">Messsage</textarea>
+                            <button class="btn">Send Message</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <p> &copy; ALtcampus 2020 pvt ltd <span>Designed</span></p>
+        </footer>
+    </body>
+</html>
